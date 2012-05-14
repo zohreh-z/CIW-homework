@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background-color:#CDD4DC;
+}
+
+div.container{
+	width:950px;
+	margin:0 auto;
+}
+
+div.menu{
+	width:358px;
+	min-height:40px;
+	margin:20px auto;
+	-webkit-border-radius:3px;
+	position:relative;
+	background:-webkit-linear-gradient(#323b43 50%, #1b2125 50%);
+}
+
+div.menu ul{
+	list-style-type:none;
+	width:358px;
+	margin:0 auto;
+}
+
+div.menu li{
+	float:left;
+	border:1px solid #1b1d20;
+	-webkit-border-radius:3px;
+	-webkit-box-shadow:0 2px 4px #aab0b6;
+}
+
+div.menu a{
+	text-decoration:none;
+	text-transform:capitalize;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	display:block;
+	padding:10px 25px;
+	color:#bbb;
+}
+
+div.subfirst{
+	width:120px;
+	position:absolute;
+	left:0px;
+	top:40px;
+}
+
+
+div.subfirst ul{
+	width:120px;
+	display:none;
+}
+
+div.subfirst li{
+	float:none;
+	background:-webkit-linear-gradient(#323b43 50%, #1b2125 50%);
+}
+
+div.subfirst a{
+	display:block;
+	padding:7px 18px;
+}
+
+div.menu li:hover a{
+	 -webkit-transform:rotatey(360deg);   
+	 -webkit-transition:all .9s;
+}
+
+div.menu li:hover ul a{
+	-webkit-transform:rotateX(0deg);   
+}
+
+div.menu li li:hover a{
+	-webkit-transform:rotatex(360deg);   
+	 -webkit-transition:all .9s;
+}
+
+div.menu li:hover ul{
+	display:block;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+	<div class="menu">
+		<ul>
+			<li><a href="#">first</a>
+				<div class="subfirst">
+					<ul>
+						<li><a href="#">subfirst1</a></li>
+						<li><a href="#">subfirst2</a></li>
+						<li><a href="#">subfirst3</a></li>
+						<li><a href="#">subfirst4</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="#">second</a></li>
+			<li><a href="#">third</a></li>
+			<li><a href="#">fourth</a></li>
+		</ul>
+	</div>
+</div>
+
+</body>
+</html>

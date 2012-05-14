@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background-color:#e8e8e8;
+}
+
+div.container{
+	width:980px;
+	margin:0 auto;
+}
+
+div.menu{
+	width:600px;
+	margin:20px auto;
+	min-height:45px;
+	-webkit-border-radius:26px;
+	background:-webkit-gradient(linear,left top,left bottom,from(#898989),to(#7d7d7d));
+	-webkit-box-shadow:0px 2px 5px #666666;
+	border:1px solid #6d6d6d;
+	position:relative;
+}
+
+div.menu ul{
+	list-style-type:none;
+	width:410px;
+	margin:0 auto;
+}
+
+div.menu li{
+	float:left;
+	
+}
+
+div.menu a{
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-transform:capitalize;
+	display:block;
+	padding:7px 22px;
+	margin-top:8px;
+	color:#e7e5e5;
+	text-shadow:0px 1px 0 #292929;
+}
+
+div.menu li:hover a{
+	color:#161616;
+	text-shadow:0px 1px 0 #dadada;
+	-webkit-border-radius:26px;
+	background:-webkit-gradient(linear,left top,left bottom,from(#ebebeb),to(#a3a3a3));
+	
+}
+
+div.menu li ul{
+	width:auto;
+	display:none;
+	position:absolute;
+	left:260px;
+	top:37px;
+}
+
+div.sub{
+	width:160px;
+	min-height:15px;
+	margin-top:10px;
+	background:-webkit-gradient(linear,left top,left bottom,from(#ebebeb),to(#cdcdcd));
+	-webkit-border-radius:15px;
+	-webkit-box-shadow:0px 1px 1px 1px #868686;
+}
+div.menu li li{
+	float:none;
+}
+
+div.menu li:hover ul{
+	display:block;
+}
+
+div.menu li:hover li a{
+	background:none;
+	color:#444;
+	text-shadow:none;
+	-webkit-border-radius:0px;
+	margin-top:0px;
+	font-size:13px;
+}
+
+div.menu li li:hover a{
+	background:-webkit-gradient(linear,left top,left bottom,from(#04acef),to(#038ca9));
+	color:#fff;
+}
+
+div.menu li li:first-child a{
+	-webkit-border-radius:10px 10px 0px 0px;
+}
+
+div.menu li li:last-child a{
+	-webkit-border-radius:0px 0px 10px 10px;
+}
+
+div.menu li li.border1{
+	border-bottom:1px solid #9f9f9f;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+</style>
+</head>
+
+<body>
+<div class="container">
+	<div class="menu">
+		<ul>
+			<li><a href="#">home</a></li>
+			<li><a href="#">about me</a></li>
+			<li><a href="#">my project</a>
+					<ul>
+						<div class="sub">
+						<li><a href="#">my peoject 1</a></li>
+						<li><a href="#">my peoject 2</a></li>
+						<li><a href="#">my peoject 3</a></li>
+						<li><a href="#">my peoject 4</a></li>
+						</div>
+					</ul>
+			</li>
+			<li><a href="#">contact</a></li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>

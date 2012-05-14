@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+*{
+	padding:0;
+	margin:0;
+}
+
+div.container{
+	width:980px;
+	margin:0 auto;
+}
+
+div.menu{
+	width:500px;
+	margin:0 auto;
+}
+
+div.menu ul{
+	list-style-type:none;
+	width:480px;
+	margin:3px auto;
+}
+
+div.menu li{
+	float:left;
+	background-color:#444;
+	border-radius:8px 8px 0px 0px;
+	-webkit-transition:all 2000ms;
+	 box-shadow:0 15px 90px #999999;
+}
+
+div.menu li:hover{
+	background-color:#666;
+	-webkit-transition:all 300ms;
+}
+
+div.menu a{
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+	display:block;
+	padding:15px 12px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	text-shadow:3px 3px 7px #fff;
+	-webkit-transition:all 2000ms;
+}
+
+div.menu li:hover a{
+	color:#000;
+	-webkit-transition:all 300ms;
+}
+
+div.clear{
+	width:0px;
+	height:0px;
+	clear:both;
+}
+
+div.menu li ul{
+	width:auto;
+	display:none;
+}
+
+div.menu  li li{
+	float:none;
+}
+
+div.menu li:hover ul{
+	display:block;
+}
+
+div.menu li li:hover a{
+	color:#fff;
+	text-shadow:4px 4px 7px #000;
+}
+/*div.menu div.box{
+	width:100px;
+	height:50px;
+	border-radius:10px;
+	background-color:#222;
+}*/
+
+</style>
+</head>
+
+<body>
+
+
+<div class="container">
+	<div class="menu">
+		<ul>
+			<li><a href="#">home</a></li>
+			<li><a href="#">about me</a></li>
+			<li><a href="#">services</a>
+				<ul>
+					<li><a href="#">service1</a></li>
+					<li><a href="#">service2</a></li>
+					<li><a href="#">service3</a></li>
+					<li><a href="#">service4</a></li>
+				</ul>
+			</li>
+			<li><a href="#">contact</a></li>
+			<div class="box">	
+			</div>
+		</ul>
+		<!--<div class="clear"></div>-->
+	</div>
+</div>
+</body>
+</html>
