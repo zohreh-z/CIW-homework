@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+div{
+	outline:1px dashed orange;
+}
+	
+div.acc{
+	width:600px;
+	margin:0 auto;
+}
+
+div.acc .train{
+	width:120px;
+	margin:30px auto;
+}
+
+div.acc .train > div{
+	height:20px;
+	background-color:red;
+	-webkit-transition: height .9s;
+	-webkit-transition: all 2000ms;
+}
+
+div.acc:hover .train > div{
+	height:20px;
+}
+
+div.acc .train > div:hover{
+	height:220px;
+	background-color:blue;
+	
+}

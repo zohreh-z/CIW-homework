@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+}
+
+div.container{
+	width:950px;
+	margin:0 auto;
+}
+
+div.train{
+	width:800px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+div.train >div{
+	width:50px;
+	float:left;
+	overflow:hidden;
+}
+
+div.menu .train > div:last-child {
+	padding-right : 100px;
+}
+
+div.menu .train > div{
+	-webkit-transition: width 700ms;
+}
+
+.mt1{
+	margin-top:-90px;
+}
+
+div.menu:hover .train >div{
+	width:50px;
+}
+
+div.menu .train>div:hover{
+	width:450px;
+}
