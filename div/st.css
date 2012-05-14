@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+div{
+	outline:1px solid red;
+}
+
+div.slide{
+	width:940px;
+	margin:20px auto;
+}
+
+div.slide .slid1{
+	margin-top:-310px;
+}

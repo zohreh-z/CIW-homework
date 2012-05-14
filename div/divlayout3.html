@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Scope</title>
+
+<link href="reset.css" type="text/css" rel="stylesheet" />
+<link href="1style.css" type="text/css" rel="stylesheet" />
+<link href="style3.css" type="text/css" rel="stylesheet" />
+<link href="slid1.css" type="text/css" rel="stylesheet" />
+
+<script type="text/javascript">
+function displayResult()
+{
+	document.getElementById('img1').style.opacity='1';
+	document.getElementById('img2').style.opacity='0'; 
+	document.getElementById('img3').style.opacity='0'; 
+	document.getElementById('img4').style.opacity='0'; 
+}
+
+function displayResult1()
+{
+	document.getElementById('img1').style.opacity='0';
+	document.getElementById('img2').style.opacity='1'; 
+	document.getElementById('img3').style.opacity='0'; 
+	document.getElementById('img4').style.opacity='0'; 
+}
+
+function displayResult2()
+{
+	document.getElementById('img1').style.opacity='0';
+	document.getElementById('img2').style.opacity='0'; 
+	document.getElementById('img3').style.opacity='1'; 
+	document.getElementById('img4').style.opacity='0'; 
+}
+
+function displayResult3()
+{
+	document.getElementById('img1').style.opacity='0';
+	document.getElementById('img2').style.opacity='0'; 
+	document.getElementById('img3').style.opacity='0'; 
+	document.getElementById('img4').style.opacity='1'; 
+}
+
+</script>
+
+</head>
+
+<body>
+<img class="bg" src="images/Design_Museum_A4-A5-A6_bg.jpg"  />
+
+<div class="container w24">
+	<div class="header">
+		<div class="mail w6 right f2">E: info@yoursite.com | T: 1.800.555.1234</div>
+		<div class="header-logo">
+			<a href="#">
+				<img src="images/logo.png" />
+			</a>
+			<span class="tag">I am a site tagline.</span>
+		</div>
+		<div class="header-menu right mr1 f2">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Drops</a>
+						<!--<ul>
+							<li><a href="#">Configure this nav</a></li>
+							<li><a href="#">With "custom menus"</a></li>
+							<li><a href="#">Very Handy Indeed!</a></li>
+						</ul>-->
+				</li>
+				<li><a href="#">Full Width</a></li>
+				<li><a href="#">Archives</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content">
+		<div class="smal-pic right w6 last">
+			<img src="images/we-are-scope.gif" class="pb-img" />
+			<br />
+			Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget.
+			<br /><br />
+			Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla.
+			<br /><br /><br />
+			<div class="f3"><a href="#">See Our Work...</a></div>
+		</div>
+		<div class="slid">
+			<div class="train" id="train">
+				<div id="img1">
+					<img src="images/slide1.jpg" width="700" height="350" alt="slide" title="" />
+				</div>
+				<div id="img2">
+					<img src="images/slide2.jpg" width="700" height="350" alt="slide2" title="" id="tra" />
+				</div>
+				<div id="img3">
+					<img src="images/slide3.jpg" width="700" height="350" alt="slide3" title="" />
+				</div>
+				<div id="img4">
+					<img src="images/slide4.jpg" width="700" height="350" alt="slide4" title="" />
+				</div>
+				<div class="clear"></div>
+			</div>
+		<div class="botom">
+			<ul>
+				<li onclick="displayResult()"></li>
+				<li onclick="displayResult1()"></li>
+				<li onclick="displayResult2()"></li>
+				<li onclick="displayResult3()"></li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+		
+	</div>
+	<div class="pic f3">
+		<!--<h3 class="dot">-->
+			<span class="f2"><b>Recond Work</b></span>
+			<div class="dot w21 right" style="min-height:7px;margin:5px 10px 0 0"></div>
+		<ul>
+			<li>
+				<div class="pic1">
+					<img src="images/vimeo-220x140.jpg" title="vimeo" alt="Vimeo" class="change-opacity" />
+					<span class="text w3" title="Permanet Link to Louise Attque">Viwe Project</span>
+				</div><br />
+					<a href="#" class="change-opacity-text" title="Permanet Link to Louise Attque">Louise Attque(Vimeo)</a><br />
+					<a href="#">Art Direction,</a>
+					<a href="#">Motion Graphic</a>
+					<br /><br />
+			</li>
+			<li>
+				<div class="pic1">
+					<img src="images/poster-220x140.jpg" title="poster" alt="poster" width="220" height="140" class="change-opacity" />
+					<span class="text w3">Viwe Project</span>
+				</div><br />
+					<a href="#" class="change-opacity-text" title="Permanet Link to Big Buck Bunny(Video)">Big Buck Bunny(video)</a><br />
+					<a href="#">Art Direction,</a>
+					<a href="#">Motion Graphic</a>
+					<br /><br />
+			</li>
+			<li>
+				<div class="pic1">
+					<img src="images/5323729685_dd70b0a42e_b-220x140.jpg" title="5323729685_dd70b0a42e_b" alt="5323729685_dd70b0a42e_b"  class="change-opacity"/>
+					<span class="text w3">Viwe Project</span>
+				</div><br />
+					<a href="#" class="change-opacity-text" title="Permanet Link to See Breeze(Audio)">See Breeze(Audio)</a><br />
+					<a href="#">Audio,</a>
+					<a href="#">Graphic Design</a>
+					<br /><br />
+			</li>
+			<li>
+				<div class="pic1">
+					<img src="images/ebc_wallpaper_1920x1200s1-220x140.jpg" title="ebc_wallpaper_1920x1200s1-220x140" alt="ebc_wallpaper_1920x1200s1-220x140" />
+					<span class="text w3">Viwe Project</span>
+				</div><br />
+					<a href="#" class="change-opacity-text" title="Permanet Link to Black Coffee">Black Coffee</a><br />
+					<a href="#">Graphic Design,</a>
+					<a href="#">Print Design</a>
+					<br /><br />
+			</li>
+		</ul>
+		<div class="fot dot"></div>
+		<div class="clear"></div>
+	</div>
+	<div class="footer f2">
+		<div class="footer-right last right dubleline">Flickr Widget
+			<div class="dot right w3" style="margin-top:2px;min-height:15px;margin-right:15px;width:120px;"></div>
+		</div>
+		<div class="footer-center right dubleline">
+			Twitter Widget
+			<div class="dot right" style="min-height:15px;margin-top:2px;width:110px;"></div>
+			<br /><br /><br /><br /><br />
+			<a href="#" class="f5 change-opacity-text">Follow on Twitter</a>
+		</div>
+		<div class="dubleline footer-left w11">
+			From the Blog
+			<div class="dot right" style="min-height:15px;width:340px;margin-top:2px;"></div>
+			<br /><br /><br />
+			<a href="#"><img src="images/box.png" align="top" />
+			</a>
+			<span class="right title1"><a href="#">Standard Post With The Whole Kaboodle</a></span>
+				<div class="right w9" style="margin:-20px 23px 0 0;">Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non …</div>
+				<br /><br /><br /><br /><br /><br />
+			<a href="#"><img src="images/box.png" align="top" /></a>
+			<div class="right title2"><a href="#">tind Promotional Poster</a></div>
+			<span class="title2-content right w9">Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non …</span>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="copyright f2">
+		<div class="text-copyright left">
+		© 2012 <a href="#" class="scope change-opacity-text">Scope.</a> Powered by <a href="#" class="scope change-opacity-text">WordPress</a><br />
+<a href="#" class="scope change-opacity-text">Scope Theme</a> by <a href="#" class="scope change-opacity-text">Orman Clark</a>
+		</div>
+		<div class="menu-copyright ml13 f3">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Full Width</a></li>
+				<li><a href="#">Archives</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+</div>
+
+</body>
+</html>
