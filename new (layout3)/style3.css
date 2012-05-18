@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*div{
+	outline:1px dashed red;
+}*/
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+
+a{
+	text-decoration:none;
+}
+
+div.background{
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	z-index:-1;
+	background-image:url('images/Design_Museum_A4-A5-A6_bg.jpg');
+	background-size:cover;
+	background-position:center top;
+}
+div.container-tooltip{
+	padding:30px 0 10px;
+}
+
+div.tooltip{
+	background-color:#ffd62c;
+	padding:6px 8px;
+	margin:0 15px 0 0;
+}
+
+div.container-header{
+	background-color:#fff;
+	padding-top:1px;
+}
+
+div.container-header div.logo{
+	overflow:hidden;
+}
+
+div.container-header div.logo div.text-logo{
+	margin:-37px 13px 0 0;
+	color:#b2b2b6;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	font-style:italic;
+}
+
+div.container-header div.logo h1{
+	background-image:url('images/logo.png');
+	background-repeat:no-repeat;
+	text-align:right;
+	width:1000px;
+	height:37px;
+	margin:20px 15px 15px;
+}
+
+div.container-header div.menu{
+	margin:20px 10px  0;
+}
+
+div.container-header div.menu ul{
+	list-style-type:none;
+}
+
+div.container-header div.menu  li{
+	float:left;
+	position:relative;
+}
+
+div.container-header div.menu li li a , div.container-header div.menu li a{
+	display:block;
+	padding:12px 10px;
+	color:#b2b2b6;
+	font-size:14px;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-transition:all 1s;
+}
+
+div.container-header div.menu li:hover  ul a{
+	color:#b2b2b6;
+}
+
+div.container-header div.menu li li:hover a , div.container-header div.menu  li:hover a{
+	color:#000;
+	-webkit-transition:all 0.2s;
+}
+
+div.container-header div.menu li ul{
+	position:absolute;
+	z-index:10;
+	display:none;
+}
+
+div.container-header div.menu li:hover ul{
+	display:block;
+	border:1px solid #bbb;
+	-webkit-box-shadow:-2px 2px 3px #eee;
+}
+
+div.container-header div.menu li li{
+	float:none;
+	background-color:#fff;
+	padding:0 15px;
+}
+
+div.container-header div.menu li li a{
+	white-space: nowrap;
+	font-size:12px;
+	border-top:1px solid #ccc;
+	padding:10px 20px 10px 0;
+}
+
+div.container-header div.menu li li:first-child a{
+	border-top:0 none;
+}
+
+div.container-slide{
+	background-color:#fff;
+	margin-top:10px;
+	padding-top:20px;
+}
+
+div.container-slide div.text-slide{
+	background-image:url('images/we-are-scope.gif');
+	width:220px;
+	background-repeat:no-repeat;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:13px;
+	margin-right:10px;
+/*	margin-bottom:50px;*/
+	color:#555;
+	line-height:1.75;
+}
+
+div.container-slide div.text-slide .text1-slide{
+	margin-top:120px;
+}
+
+div.container-slide div.text-slide a{
+	color:#000;
+	border-bottom:1px dotted #000;
+}
+
+div.container-slide div.text-slide a:hover{
+	border-bottom:0 none;
+}
+
+.change-bgcolor{
+	-webkit-transition:all 0.9s;
+}
+
+.change-bgcolor:hover{
+	background-color:#ffd62c;
+	-webkit-transition:all 0.2s;
+}
+
+.bg-widget-title{
+	background-image:url('images/bg-widget-title.gif');
+	background-repeat:no-repeat;
+	margin-left:10px;
+	background-position:center left;
+}
+
+div.bg-widget-title p{
+	padding-left:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+.bg-dots{
+	background-image:url('images/dots.gif');
+	height:7px;
+	margin-top:5px;
+}
+
+.wbetwen20-21{
+	width:810px;
+	margin-right:10px;
+}
+
+div.container-project{
+	min-height:200px;
+}
