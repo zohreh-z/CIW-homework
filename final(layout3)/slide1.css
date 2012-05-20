@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*{
+	outline:1px dashed red;
+}*/
+
+.slid{
+	width:700px;
+/*	margin:0 auto;*/
+	overflow:hidden;
+	margin-left:10px;
+	margin-bottom:40px;
+	position:relative;
+}
+
+.slid .train > {
+	float:left;
+	-webkit-transition:opacity .3s linear;
+}
+
+.slid .train >  img{
+	display:block;
+}
+
+.slid ul{
+	list-style-type:none;
+	position:absolute;
+	top:320px;
+	left:600px;
+}
+
+.slid li{
+	float:right;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	background-color:#fff;
+	margin-right:8px;
+}
+
+.slid li:hover{
+	background-color:#000;
+	cursor:pointer;
+}
+
+#img1{
+	opacity:1;
+}
+
+#img2{
+	margin-top:-350px;
+	opacity:0;
+}
+
+#img3{
+	margin-top:-350px;
+	opacity:0;
+}
+
+#img4{
+	margin-top:-350px;
+	opacity:0;
+}

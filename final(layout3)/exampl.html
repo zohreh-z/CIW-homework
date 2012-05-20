@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="reset.css" type="text/css" rel="stylesheet" />
+<link href="1style.css" type="text/css" rel="stylesheet" />
+<link href="style3.css" type="text/css" rel="stylesheet" />
+<link href="slide1.css" type="text/css" rel="stylesheet" />
+
+<script type="text/javascript">
+function displayResult()
+{
+	document.getElementById('img1').style.opacity='1';
+	document.getElementById('img2').style.opacity='0'; 
+	document.getElementById('img3').style.opacity='0'; 
+	document.getElementById('img4').style.opacity='0'; 
+}
+
+function displayResult1()
+{
+	document.getElementById('img1').style.opacity='0';
+	document.getElementById('img2').style.opacity='1'; 
+	document.getElementById('img3').style.opacity='0'; 
+	document.getElementById('img4').style.opacity='0'; 
+}
+
+function displayResult2()
+{
+	document.getElementById('img1').style.opacity='0';
+	document.getElementById('img2').style.opacity='0'; 
+	document.getElementById('img3').style.opacity='1'; 
+	document.getElementById('img4').style.opacity='0'; 
+}
+
+function displayResult3()
+{
+	document.getElementById('img1').style.opacity='0';
+	document.getElementById('img2').style.opacity='0'; 
+	document.getElementById('img3').style.opacity='0'; 
+	document.getElementById('img4').style.opacity='1'; 
+}
+
+</script>
+</head>
+
+<body>
+
+<div class="container">
+	<!-- ************************START DIV CONTAINER-TOOLTIP************************-->
+  <section class="container-tooltip cover">
+		<div class="tooltip right">E: info@yuorsit.com | T: +1(800) 123-4568</div>
+		<div class="clear"></div>
+	</section>
+
+	<!-- ************************END DIV CONTAINER-TOOLTIP************************-->
+	<!-- ************************START DIV CONTAINER-HEADER************************-->
+	<header class="container-header">
+		<!-- ************************START DIV MENU************************-->
+		<nav class="menu right">
+			<ul>
+				<li><a href="#" style="color:#000;">Home</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Drops</a>
+					<ul>
+						<li><a href="#">Configure this nav</a></li>
+						<li><a href="#">With "Custom Menus"</a></li>
+						<li><a href="#">Very Handy Indeed!</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Full Width</a></li>
+				<li><a href="#">Archives</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<!-- ************************END DIV MENU************************-->
+		<!-- ************************START DIV LOGO************************-->
+		<hgroup class="logo w8">
+			<a href="#"><h1>scope</h1></a>
+			<h2 class="right">I am a site tagline.</h2>
+		</hgroup>	
+		<!-- ************************END DIV LOGO************************-->
+		<div class="clear"></div>		
+  </header>
+	<!-- ************************END DIV CONTAINER-HEADER************************-->
+	<!-- ************************START DIV CONTAINER-SLIDE************************-->
+		<!-- ************************START DIV CONTAINER-SLIDE************************-->
+	<div class="container-slide">
+		<aside class="text-slide right">
+			<p class="text1-slide">Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget.</p><br />
+			Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla.
+			<br /><br />
+			<a href="#" class="change-bgcolor">See our work…</a>
+		</aside>
+		<section class="slid">
+			<div class="train">
+				<div id="img1">
+					<img src="images/slide1.jpg" width="700" height="350" alt="slide" title="" />
+				</div>
+				<div id="img2">
+					<img src="images/slide2.jpg" width="700" height="350" alt="slide2" title="" id="tra" />
+				</div>
+				<div id="img3">
+					<img src="images/slide3.jpg" width="700" height="350" alt="slide3" title="" />
+				</div>
+				<div id="img4">
+					<img src="images/slide4.jpg" width="700" height="350" alt="slide4" title="" />
+				</div>
+				<div class="clear"></div>
+			</div>
+			<ul>
+				<li onclick="displayResult()"></li>
+				<li onclick="displayResult1()"></li>
+				<li onclick="displayResult2()"></li>
+				<li onclick="displayResult3()"></li>
+			</ul>
+			<div class="clear"></div>
+		</section>
+		<section>
+			<div class="bg-dots right wbetwen20-21"></div>
+				<div class="bg-widget-title">
+					<p class="f6">Recent Work</p>
+				</div>
+			<div class="clear"></div>
+		</section>
+		<nav class="container-project f6">
+			<ul>
+				<li>
+					<div class="pic1">
+						<img src="images/vimeo-220x140.jpg" width="220" height="140" title="vimeo" alt="Vimeo" class="change-opacity" />
+						<span class="text" title="Permanet Link to Louise Attque">Viwe Project</span>
+					</div><br />
+						<a href="#" class="change-opacity-text" title="Permanet Link to Louise Attque">Louise Attque(Vimeo)</a><br />
+						<a href="#">Art Direction,</a>
+						<a href="#">Motion Graphic</a>
+						<br /><br />
+				</li>
+				<li>
+					<div class="pic1">
+						<img src="images/poster-220x140.jpg" title="poster" alt="poster" width="220" height="140" class="change-opacity" />
+						<span class="text w3">Viwe Project</span>
+					</div><br />
+						<a href="#" class="change-opacity-text" title="Permanet Link to Big Buck Bunny(Video)">Big Buck Bunny(video)</a><br />
+						<a href="#" class="change-bgcolor">Art Direction,</a>
+						<a href="#">Motion Graphic</a>
+						<br /><br />
+				</li>
+				<li>
+					<div class="pic1">
+						<img src="images/5323729685_dd70b0a42e_b-220x140.jpg" width="220" height="140" title="5323729685_dd70b0a42e_b" alt="5323729685_dd70b0a42e_b"  class="change-opacity"/>
+						<span class="text w3">Viwe Project</span>
+					</div><br />
+						<a href="#" class="change-opacity-text" title="Permanet Link to See Breeze(Audio)">See Breeze(Audio)</a><br />
+						<a href="#">Audio,</a>
+						<a href="#">Graphic Design</a>
+						<br /><br />
+				</li>
+				<li>
+					<div class="pic1">
+						<img src="images/ebc_wallpaper_1920x1200s1-220x140.jpg" width="220" height="140" title="ebc_wallpaper_1920x1200s1-220x140" alt="ebc_wallpaper_1920x1200s1-220x140" />
+						<span class="text w3">Viwe Project</span>
+					</div><br />
+						<a href="#" class="change-opacity-text" title="Permanet Link to Black Coffee">Black Coffee</a><br />
+						<a href="#">Graphic Design,</a>
+						<a href="#">Print Design</a>
+						<br /><br />
+				</li>
+		</ul>
+		</nav>
+		<section class="big-dot bg-dots"></section>
+		<div class="clear"></div><!--kar nemikonad -->
+	</div>
+	<!-- ************************END DIV CONTAINER-SLIDE************************-->
+	<!-- ************************START DIV CONTAINER-WIDGET************************-->
+	<section class="container-widget f5">
+		<div class="widget-right last right bg-widget-title">Flickr Widget
+			<div class="bg-dots right" style="margin-top:4px;min-height:7px;margin-right:10px;width:120px;"></div>
+		</div>
+		<div class="widget-center  right widget-left-main">
+			<div class="wgcenter left w5 bg-widget-title">Twitter Widget
+				<div class="bg-dots right" style="min-height:7px;margin-top:4px;width:95px;"></div>
+			</div>
+			<br /><br /><br /><br />
+			<a href="#" class="f5 change-bgcolor"  style="padding-left:15px;">Follow on Twitter</a>
+		</div>
+		<div class="w12 widget-left-main">
+			<div class=" widget-left bg-widget-title">
+			From the Blog
+			<div class="bg-dots right" style="min-height:7px;width:355px;margin-top:5px;"></div>
+			</div>
+			<br />
+			<a href="#" style="padding-left:10px;"><img src="images/box.png"/>
+			</a>
+			<span class=" right title1"><a href="#">Standard Post With The Whole Kaboodle</a></span>
+				<div class="subtitle1 left w9">Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non …</div>
+				<br /><br /><br /><br /><br /><br /><br />
+			<a href="#" style="padding-left:10px;"><img src="images/box.png" align="top" /></a>
+			<div class="right title2"><a href="#">tind Promotional Poster</a></div>
+			<span class="subtitle1 right">Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non …</span>
+		</div>
+		<div class="clear"></div>
+	</section>
+	<!-- ************************END DIV CONTAINER-WIDGET************************-->
+	<!-- ************************START DIV CONTAINER-COPYRIGHT************************-->
+	<section class="copyright f4">
+		<div class="text-copyright left">
+		© 2012 <a href="#" class="scope change-bgcolor">Scope.</a> Powered by <a href="#" class="scope change-bgcolor">WordPress</a><br />
+<a href="#" class="scope change-bgcolor">Scope Theme</a> by <a href="#" class="scope change-bgcolor">Orman Clark</a>
+		</div>
+		<nav class="menu-copyright right f4">
+			<ul>
+				<li><a href="#" class="change-bgcolor">Home</a></li>
+				<li><a href="#" class="change-bgcolor">Portfolio</a></li>
+				<li><a href="#" class="change-bgcolor">Full Width</a></li>
+				<li><a href="#" class="change-bgcolor">Archives</a></li>
+				<li><a href="#" class="change-bgcolor">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="clear"></div>
+	</section>
+	<!-- ************************END DIV CONTAINER-COPYRIGHT************************-->
+</div>
+<!-- ************************END DIV CONTAINER************************-->
+<div class="background">
+</div>
+
+
+</body>
+</html>
