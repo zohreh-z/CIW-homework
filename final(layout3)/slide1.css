@@ -1,13 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*{
-	outline:1px dashed red;
-}*/
-
 .slid{
 	width:700px;
-/*	margin:0 auto;*/
 	overflow:hidden;
 	margin-left:10px;
 	margin-bottom:40px;
@@ -17,6 +12,9 @@
 .slid .train > {
 	float:left;
 	-webkit-transition:opacity .3s linear;
+	-moz-transition:opacity .3s linear;
+	-o-transition:opacity .3s linear;
+	-ms-transition:opacity .3s linear;
 }
 
 .slid .train >  img{
