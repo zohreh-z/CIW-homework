@@ -9,7 +9,7 @@
 	position:relative;
 }
 
-.slid .train > {
+.slid .train >div {
 	float:left;
 	-webkit-transition:opacity .3s linear;
 	-moz-transition:opacity .3s linear;
