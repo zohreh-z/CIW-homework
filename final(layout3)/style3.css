@@ -132,7 +132,7 @@ ul{
 	background-color:#fff;
 	margin-top:10px;
 	padding-top:20px;
-	min-height:700px;/*delette*/
+	min-height:720px;/*delette*/
 }
 
 .container-slide .text-slide{
@@ -309,7 +309,7 @@ ul{
 .big-dot{
 	width:930px;
 	margin:0 10px 10px;
-	min-height:7px;
+	height:17px;
 }
 
 .container-widget{
