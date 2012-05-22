@@ -146,6 +146,10 @@ ul{
 	line-height:1.75;
 }
 
+.container-slide p{
+	margin-bottom:20px;
+}
+	
 .container-slide .text-slide .text1-slide{
 	margin-top:120px;
 }
@@ -153,6 +157,10 @@ ul{
 .container-slide .text-slide a{
 	color:#000;
 	border-bottom:1px dotted #000;
+	display:block;
+	width:95px;
+	margin-top:15px;
+
 }
 
 .container-slide .text-slide a:hover{
