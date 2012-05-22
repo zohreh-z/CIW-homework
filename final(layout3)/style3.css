@@ -2,8 +2,7 @@
 /* CSS Document */
 
 body{
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:11px;
+	font:13px/21px Georgia, "Times New Roman", Times, serif;
 }
 
 a{
@@ -28,9 +27,10 @@ a{
 
 .tooltip{
 	background-color:#ffd62c;
-	padding:6px 8px;
+	padding:3px 8px;
 	margin:0 15px 0 0;
-	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	font-family:Arial, Helvetica, sans-serif;
 }
 
 .container-header{
@@ -59,7 +59,7 @@ a{
 }
 /* -----------------------------------MENU---------------------- */
 .container-header .menu{
-	margin:15px 10px  0;
+	margin:20px 15px  0;
 }
 
 ul{
@@ -143,7 +143,6 @@ ul{
 	font-size:13px;
 	margin-right:10px;
 	color:#555;
-	line-height:1.75;
 }
 
 .container-slide p{
@@ -157,8 +156,6 @@ ul{
 .container-slide .text-slide a{
 	color:#000;
 	border-bottom:1px dotted #000;
-	display:block;
-	width:95px;
 	margin-top:15px;
 
 }
@@ -192,27 +189,24 @@ ul{
 }
 
 .bg-widget-title{
-	background-image:url('images/bg-widget-title.gif');
+	background:url('images/bg-widget-title.gif');
 	background-repeat:no-repeat;
-	margin-left:10px;
+	margin-left:20px;
 	background-position:center left;
 }
 
-.bg-widget-title p{
+.sp{
 	padding-left:15px;
+	padding-right:10px;
 	font-family:Arial, Helvetica, sans-serif;
 	font-weight:bold;
+	font-size:12px;
+	background-color:#fff;
 }
 
 .bg-dots{
-	background-image:url('images/dots.gif');
-	height:7px;
-	margin-top:5px;
-}
-
-.wbetwen20-21{
-	width:810px;
-	margin-right:10px;
+	background:url('images/dots.gif') 0 10px;
+	background-repeat:repeat-x;
 }
 
 .container-project{
@@ -229,7 +223,9 @@ ul{
 .container-project li{
 	float:left;
 	margin-right:15px;
-	background-color:#f9f9f9;
+	background-color:#f7f7f8;
+	width:220px;
+	height:220px;
 }
 
 .change-opacity{
@@ -241,8 +237,8 @@ ul{
 
 .pic1{
 	background-color:#fb0;
-	width:220px;
 	height:140px;
+	position:relative;
 }
 
 .container-project img:hover{
@@ -250,17 +246,15 @@ ul{
 	cursor:pointer;
 }
 
-.pic1 .text{
-	font-family:Georgia, "Times New Roman", Times, serif;
-	display:block;
-	width:85px;
-	margin-top:-90px;
-	margin-left:50px;
-	background-color:#000;
+.text{
+	background-color:#333;
 	color:#fff;
 	visibility:hidden;
-	padding:5px 8px;
-	background-image:none;
+	padding:2px 5px;
+	font-size:14px;
+	position:absolute;
+	top:60px;
+	left:60px;
 }
 
 .pic1:hover .text{
@@ -295,9 +289,13 @@ ul{
 	-moz-transition:all 0.9s;
 	-o-transition:all 0.9s;
 	-ms-transition:all 0.9s;
-	padding:1px 3px;
-	font-size:12px;
-	line-height:1.5;
+	padding:1px 1px;
+	font:13px/20px;
+	color:#555;
+}
+
+.black{
+	color:#000;
 }
 
 .container-project li a:hover{
