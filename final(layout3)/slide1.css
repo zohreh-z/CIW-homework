@@ -46,6 +46,17 @@
 	opacity:1;
 }
 
+.change-p{
+	background-color:#222;
+	color:#fff;
+	position:absolute;
+	top:20px;
+	left:20px;
+	padding:7px 15px;
+	font-style:italic;
+	font-size:14px;
+}
+
 #img2{
 	margin-top:-350px;
 	opacity:0;
